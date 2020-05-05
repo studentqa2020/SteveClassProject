@@ -56,6 +56,7 @@ public class BaseLogin2 {
 		System.out.println(driver.getTitle());
 		
 		driver.close();
+		
 	}
 
 	}
