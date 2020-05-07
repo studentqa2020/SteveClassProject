@@ -16,6 +16,7 @@ import com.util.Highlighter;
 public class automationPracticeLogin {
 
 	public static void main(String[] args) throws Throwable {
+
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 		Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
